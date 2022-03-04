@@ -28,7 +28,7 @@ while Global.NotTermination(Archive)
         MatingPool1 = TournamentSelection(2,round(Global.N),-CrowdDis1);
         Offspring  = Global.Variation([Population(MatingPool1)]);
     end
-    [Population,CrowdDis1] = MPFEnvironmentalSelection([Population,Offspring],Global.N);
+    [Population,CrowdDis1] = EnvironmentalSelection([Population,Offspring],Global.N);
     [Archive,CrowdDis2] = ArchiveUpdate([Archive,Offspring],Global.N,eps);
 end
 
