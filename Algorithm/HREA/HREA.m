@@ -16,7 +16,7 @@ function HREA(Global)
 
 %% Generate random population
 Population = Global.Initialization();
-[~,CrowdDis1] = MPFEnvironmentalSelection(Population,Global.N);
+[~,CrowdDis1] = EnvironmentalSelection(Population,Global.N);
 [Archive,CrowdDis2] = ArchiveUpdate(Population,Global.N,eps);
 
 %% Optimization
