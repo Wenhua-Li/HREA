@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code, please cite the associated paper as well as this repository.
+authors:
+  - family-names: "Li"
+    given-names: "Wenhua"
+  - family-names: "Yao"
+    given-names: "Xingyi"
+  - family-names: "Zhang"
+    given-names: "Tao"
+  - family-names: "Wang"
+    given-names: "Rui"
+  - family-names: "Wang"
+    given-names: "Ling"
+title: "HREA"
+version: 1.0.0
+date-released: "2026-10-28"
+repository-code: "https://github.com/Wenhua-Li/HREA"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Li"
+      given-names: "Wenhua"
+    - family-names: "Yao"
+      given-names: "Xingyi"
+    - family-names: "Zhang"
+      given-names: "Tao"
+    - family-names: "Wang"
+      given-names: "Rui"
+    - family-names: "Wang"
+      given-names: "Ling"
+  title: "Hierarchy Ranking Method for Multimodal Multiobjective Optimization With Local Pareto Fronts"
+  journal: "IEEE Transactions on Evolutionary Computation"
+  volume: 27
+  number: 1
+  pages: "98-110"
+  year: 2023
+  doi: "10.1109/TEVC.2022.3155757"
